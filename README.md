@@ -3,7 +3,7 @@
 **MrAbdelaziz/MrAbdelaziz** is a ✨ _special_ ✨ repository .
 -->
 
-### Hi there, I'm Tobi -  [Website][website] 👋
+### Hi there, I'm Abdelaziz 👋
 
 ## I'm a Full Stack web Developer !
 - 🌱 I’m constantly improving my django skills
@@ -14,11 +14,7 @@
 
 ### Reach Me:
 
-[![Website](https://img.shields.io/website?label=tobidegnon.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://tobidegnon.herokuapp.com)
-[![Twitter URL](https://img.shields.io/twitter/url?color=%231DA1F2&label=Follow%20%40Tobi-DE&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter%2FTobi71110248)](https://twitter.com/Tobi71110248?ref_src=twsrc%5Etfw)
-[![GMAIL URL](https://img.shields.io/twitter/url?color=%23D14836&label=GMAIL%20CONTACT&logo=gmail&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FTobi71110248)](mailto:degnonfrancis@gmail.com)
-[![Telegram URL](https://img.shields.io/twitter/url?color=%232CA5E0&label=Telegram&logo=telegram&style=for-the-badge&url=https%3A%2F%2Ft.me%2FTobi_DE1999)](https://t.me/Tobi_DE1999)
-
+[![GMAIL URL](https://img.shields.io/twitter/url?color=%23D14836&label=GMAIL%20CONTACT&logo=gmail&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FTobi71110248)](mailto:elouahab.abdelaziz@gmail.com)
 
 ---
 
@@ -63,21 +59,8 @@
 ---
 
 <details>
-  <summary>:zap: Recent Github Activity</summary>
-
-  <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com//PyCrafting/cookiecutter-django-rest/pull/1) in [PyCrafting/cookiecutter-django-rest](https://github.com//PyCrafting/cookiecutter-django-rest)
-2. 💪 Opened PR [#1](https://github.com//PyCrafting/cookiecutter-django-rest/pull/1) in [PyCrafting/cookiecutter-django-rest](https://github.com//PyCrafting/cookiecutter-django-rest)
-  <!--END_SECTION:activity-->
-
-</details>
-
-<details>
   <summary>:zap: Github Stats</summary>
 
  <img align="left" alt="Tobi-De Github Stats" src="https://github-readme-stats.tobi-de.vercel.app/api?username=Tobi-De&count_private=true&hide_border=true&theme=algolia" />
 
  </details>
-
-
-[website]: https://tobidegnon.herokuapp.com/
