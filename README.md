@@ -5,7 +5,7 @@
 
 ### Hi there, I'm Abdelaziz 👋
 
-## I'm a Full Stack web Developer !
+## I'm a Full Stack Developer !
 - 🌱 I’m constantly improving my django skills
 - 👯 I’m looking to collaborate on python, django projects
 - 🥅 2020 Goals: Get my django skills to the advanced level
