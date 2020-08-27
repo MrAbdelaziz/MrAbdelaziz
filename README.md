@@ -17,10 +17,10 @@
 [![GMAIL URL](https://img.shields.io/twitter/url?color=%23D14836&label=GMAIL%20CONTACT&logo=gmail&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2F)](mailto:elouahab.abdelaziz@gmail.com)
 
 
----
 
-### Tech I'm interested in:
 <!--
+---
+### Tech I'm interested in:
 - [Fastapi](https://github.com/tiangolo/fastapi)
 - [Scrapy](https://github.com/scrapy/scrapy)
 - [Graphql](https://graphql.org/)
