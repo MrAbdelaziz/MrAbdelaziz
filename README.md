@@ -20,7 +20,7 @@
 ---
 
 ### Tech I'm interested in:
-
+<!--
 - [Fastapi](https://github.com/tiangolo/fastapi)
 - [Scrapy](https://github.com/scrapy/scrapy)
 - [Graphql](https://graphql.org/)
@@ -29,7 +29,7 @@
 - [NuxtJs](https://fr.nuxtjs.org/)
 - [JAMSTACK](https://jamstack.org/)
 - [Gridsome](https://gridsome.org/)
-- [Flutter](https://flutter.dev/)
+- [Flutter](https://flutter.dev/) -->
 
 ---
 
