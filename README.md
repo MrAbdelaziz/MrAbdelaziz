@@ -5,7 +5,7 @@
 
 Here's something about me :
 
-- 💁‍♀️ I'm a Computer Science Student at NIT Nagpur. 
+- 💁‍♀️ Computer Science Engineering Student. 
 - 🥽 Diving Deep and learning there!..Oh! That's **Deep Learning**😎🤓
 - 📖 Currently learning about Django.
 - 💙 Python
