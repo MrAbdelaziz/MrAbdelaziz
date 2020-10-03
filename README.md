@@ -9,4 +9,3 @@ Here's something about me :
 - 📖 Currently learning about Django.
 - 💙 Python
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gaurav-kumar-yadav/)](https://www.linkedin.com/in/abdelazizelouahab/)
-- ⚡ Fun fact: I am also a Gamer 🚗
