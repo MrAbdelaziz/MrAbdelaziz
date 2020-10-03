@@ -6,7 +6,6 @@
 Here's something about me :
 
 - 💁‍♀️ Computer Science Engineering Student. 
-- 🥽 Diving Deep and learning there!..Oh! That's **Deep Learning**😎🤓
 - 📖 Currently learning about Django.
 - 💙 Python
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gaurav-kumar-yadav/)](https://www.linkedin.com/in/abdelazizelouahab/)
