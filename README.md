@@ -6,6 +6,6 @@
 Here's something about me :
 
 - 💁‍♀️ Computer Science Engineering Student. 
-- 📖 Currently learning about PERL.
+- 📖 Currently learning about Angular.
 - 💙 Python / PERL / PHP
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gaurav-kumar-yadav/)](https://www.linkedin.com/in/abdelazizelouahab/)
