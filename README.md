@@ -2,13 +2,6 @@
 <img  align="left" src="mychar.gif"  /> 
 
 <img align="center" src="about.png?raw=true"/>
-- :mortar_board: Studying Computer Science, computer programming and Mathematics
-- 🔭 Learning and Developing Machine Learning based projects in Python
-- 🌱 Enthusiast in cyber Security and Artificial Intelligence
-- 💬 Ask me anything about AI
-- 🍵 I belive, a perfect cup of coffee can be the ultimate solution for any stress
-- 📫 How to reach me: mohamedchibani420@gmail.com
-
 
 <img  align="right" src="https://www.pinclipart.com/picdir/big/533-5333406_vector-free-stock-ray-kon-wiki-fandom-powered.png" width="300" height="400" /> 
 <img  align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrAbdelaziz&theme=dracula&title_color=07ddf4&text_color=fff" width="300" height="400"/>
