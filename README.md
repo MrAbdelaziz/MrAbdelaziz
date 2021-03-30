@@ -8,3 +8,7 @@ Here's something about me :
 - 💁‍♀️ Computer Science Engineering Student. 
 - 💙 Python / PERL / PHP / JAVA / TypeScript
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gaurav-kumar-yadav/)](https://www.linkedin.com/in/abdelazizelouahab/)
+
+<p align="center">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=MrAbdelaziz" id="counter">
+</p>
