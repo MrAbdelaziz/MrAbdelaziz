@@ -1,6 +1,6 @@
 <p align="left">
 <img  src="mychar.gif" width="300" height="600" /> 
-  <img  src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Comingsoon.gif" width="500" height="600" /> 
+  <img  src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Comingsoon.gif" width="600" height="600" /> 
 </p>
 
 
