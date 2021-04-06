@@ -3,7 +3,6 @@
 </p>
 
 <div  align="right"> 
-  <h1 align="center">Hi there, I'm Abdelaziz ELOUAHAB 👋</h1>
 
   <p align="center">
   <a href="https://linkedin.com/in/abdelazizelouahab" target="_blank">
