@@ -1,8 +1,8 @@
 <p align="left">
   <img  src="mychar.gif" width="100" height="600" /> 
-</p>
-
-<div  align="right"> 
+  
+  
+<p  align="right"> 
 
   <p align="center">
   <a href="https://linkedin.com/in/abdelazizelouahab" target="_blank">
@@ -27,7 +27,10 @@
   </p>
 
   </br>
-</div>
+</p>
+  
+</p>
+
 
 <p align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=MrAbdelaziz" id="counter">
