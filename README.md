@@ -2,18 +2,18 @@
   <img  src="mychar.gif" width="100" height="600" /> 
   
   
-<p  align="right"> 
+  <p  align="right"> 
 
   <p align="center">
-  <a href="https://linkedin.com/in/abdelazizelouahab" target="_blank">
-    <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" />
-  </a>
+    <a href="https://linkedin.com/in/abdelazizelouahab" target="_blank">
+      <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" />
+    </a>
   </p>
 
   <p align="center"> 
-  <strong>
-    Professional skills
-    </strong>
+    <strong>
+      Professional skills
+      </strong>
   </p>
 
   <p align="center"> 
@@ -27,8 +27,7 @@
   </p>
 
   </br>
-</p>
-  
+  </p>
 </p>
 
 
