@@ -2,7 +2,7 @@
   <img  src="mychar.gif" width="300" height="600" /> 
 </p>
 
-<p  align="right"> 
+<div  align="right"> 
   <h1 align="center">Hi there, I'm Abdelaziz ELOUAHAB 👋</h1>
 
   <p align="center">
@@ -28,7 +28,7 @@
   </p>
 
   </br>
-</p>
+</div>
 
 <p align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=MrAbdelaziz" id="counter">
