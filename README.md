@@ -2,7 +2,7 @@
   <img  src="mychar.gif" width="300" height="600" /> 
 </p>
 
-<p  align="left"> 
+<p  align="right"> 
   <h1 align="center">Hi there, I'm Abdelaziz ELOUAHAB 👋</h1>
 
   <p align="center">
