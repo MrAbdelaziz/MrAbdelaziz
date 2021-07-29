@@ -1,7 +1,7 @@
 
 
 <p>
-  <h1 align="center">Time is a created thing. To say “I don’t have time” is to say “I don’t want to”.</h1>
+  <h1 align="center">Time is a created thing. To say “I don’t have time” <br> is to say “I don’t want to”.</h1>
 
 <p align="center">
  <a href="https://linkedin.com/in/abdelazizelouahab" target="_blank">
