@@ -1,4 +1,4 @@
-![MrAbdelaziz Banner Image](./assets/img/banner.png)
+![MrAbdelaziz Banner Image](./assets/img/1.gif)
 
 <p>
   
