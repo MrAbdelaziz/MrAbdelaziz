@@ -1,5 +1,7 @@
 ![MrAbdelaziz Banner Image](./assets/img/banner.gif)
 
+## Projects Ideas
+
 <table>
   <tr>
     <td>GestionStock django</td>
