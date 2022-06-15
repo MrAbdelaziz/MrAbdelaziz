@@ -1,4 +1,5 @@
 ![MrAbdelaziz Banner Image](./assets/img/banner.gif)
+<video src='https://www.youtube.com/watch?v=kx7P_ENnDPE' width=180/>
 
 ## Projects Ideas
 
