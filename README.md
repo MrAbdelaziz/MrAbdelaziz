@@ -1,5 +1,4 @@
 ![MrAbdelaziz Banner Image](./assets/img/banner.gif)
-[![Demo CountPages alpha](./assets/img/banner.gif)](https://www.youtube.com/watch?v=2LegcNVM_nM)
 
 ## Projects Ideas
 
