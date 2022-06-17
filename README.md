@@ -1,7 +1,8 @@
 <!--- ![MrAbdelaziz Banner Image](./assets/img/banner.gif)-->
-<center>
+
+<p align="center">
 <img src="./mychar.gif"  height="500">
-</center>
+</p>
 ## Projects Ideas
 
 <table>
