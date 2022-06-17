@@ -1,4 +1,5 @@
 <!--- ![MrAbdelaziz Banner Image](./assets/img/banner.gif)-->
+![MrAbdelaziz Banner Image](./mychar.gif)
 
 ## Projects Ideas
 
