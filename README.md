@@ -3,8 +3,9 @@
 <p align="center">
 <img src="./mychar.gif"  height="500">
 </p>
-## Projects Ideas
 
+ ## Projects Ideas
+ 
 <table>
   <tr>
     <td>GestionStock django</td>
