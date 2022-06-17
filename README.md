@@ -1,5 +1,5 @@
 <!--- ![MrAbdelaziz Banner Image](./assets/img/banner.gif)-->
-![MrAbdelaziz Banner Image](./mychar.gif)
+![MrAbdelaziz Banner Image](./mychar.gif =250x250)
 
 ## Projects Ideas
 
