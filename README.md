@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="./mychar.gif"  height="500">
-</p>
+</p>-->
 
  ## Projects Ideas
  
