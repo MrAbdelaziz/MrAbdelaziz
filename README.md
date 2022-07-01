@@ -1,4 +1,4 @@
-<!--- ![MrAbdelaziz Banner Image](./assets/img/banner.gif)-->
+<!--- ![MrAbdelaziz Banner Image](./assets/img/banner.gif)
 
 <p align="center">
 <img src="./mychar.gif"  height="500">
