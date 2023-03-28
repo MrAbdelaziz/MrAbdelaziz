@@ -15,7 +15,7 @@ I am an IT engineer with a passion for building software solutions that help bus
 - 💾 Big DATA
 - 🚀 DevOps
 
- ## Some Personal Projects
+ ## Projects
  
 <table>
   <tr>
