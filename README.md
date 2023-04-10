@@ -17,7 +17,7 @@ I am an IT engineer with a passion for building software solutions that help bus
  
 ## What I'm Working On 💻
 
-Currently, I am working on a new web application that uses nodeJS and Angular.
+Currently, I am working on a new web application with nodeJS and Angular.
 
 ## My Hobbies 🏄‍♂️
 
