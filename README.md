@@ -33,4 +33,4 @@ When I'm not coding, you can find me hiking 🏞️ in the great outdoors. I als
 Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/MrAbdelaziz/) if you have any questions or want to collaborate on a project.
 
 latest picture from NASA:
-![NASA Picture](image.jpg)
+![NASA Picture](/home/runner/work/MrAbdelaziz/MrAbdelaziz/image.jpg)
