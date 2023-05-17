@@ -13,7 +13,7 @@ curl -s -o image.jpg "$IMAGE_URL"
 cp image.jpg MrAbdelaziz
 
 # Replace the placeholder in the README with the image path
-sed -i "s|!\[NASA Picture\](.*)|![NASA Picture](image.jpg)|g" MrAbdelaziz/README.md
+#sed -i "s|!\[NASA Picture\](.*)|![NASA Picture](image.jpg)|g" MrAbdelaziz/README.md
 
 git add image.jpg
 
