@@ -15,6 +15,8 @@ cp image.jpg MrAbdelaziz
 # Replace the placeholder in the README with the image path
 sed -i "s|!\[NASA Picture\](.*)|![NASA Picture](image.jpg)|g" MrAbdelaziz/README.md
 
+git add .
+
 # Commit and push the changes
 git config --global user.email "elouahab.abdelaziz@gmail.com"
 git config --global user.name "MrAbdelaziz"
