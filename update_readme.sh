@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # Get the last picture from NASA API
-IMAGE_URL=$(curl -s "https://api.nasa.gov/planetary/apod?api_key=UTxsLjgPTQZfCVXDaJ9GkWGtKZr4UYafK3C9t7g9" | jq -r '.url')
+API_KEY="$NASA_API_KEY"  # Access the API key from the environment variable
+
+# Download the image
+IMAGE_URL=$(curl -s "https://api.nasa.gov/planetary/apod?api_key=$API_KEY" | jq -r '.url')
 
 # Download the image
 curl -s -o image.jpg "$IMAGE_URL"
@@ -13,5 +16,7 @@ cp image.jpg MrAbdelaziz
 sed -i "s|!\[NASA Picture\](.*)|![NASA Picture](image.jpg)|g" MrAbdelaziz/README.md
 
 # Commit and push the changes
+git config --global user.email "elouahab.abdelaziz@gmail.com"
+git config --global user.name "MrAbdelaziz"
 git commit -am "Update README with the latest NASA picture"
 git push
