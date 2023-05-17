@@ -25,4 +25,6 @@ jobs:
         run: sudo apt-get install jq -y
 
       - name: Run shell script
+        env:
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
         run: bash update_readme.sh
