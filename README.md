@@ -20,9 +20,8 @@ I am an IT engineer with a passion for building software solutions that help bus
 ![Abdelaziz GitHub Stats](https://github-readme-stats.vercel.app/api?username=MrAbdelaziz&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrAbdelaziz&layout=compact&theme=radical)
 
-## How to reach me? 🙌
-
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/MrAbdelaziz/) if you have any questions or want to collaborate on a project.
-
 # latest picture from NASA:
-<img src="image.jpg" width="300"/>
+<p align="center">
+
+<img src="image.jpg" width="300" align="center"/>
+</p>
