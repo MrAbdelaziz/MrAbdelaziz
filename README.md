@@ -14,14 +14,6 @@ I am an IT engineer with a passion for building software solutions that help bus
 - 🤖 Machine Learning
 - 💾 Big DATA
 - 🚀 DevOps
- 
-## What I'm Working On 💻
-
-Currently, I am working on a new web application with nodeJS and Angular.
-
-## My Hobbies 🏄‍♂️
-
-When I'm not coding, you can find me hiking 🏞️ in the great outdoors. I also enjoy reading 📚 about new and emerging technologies and participating in hackathons.
 
 ## My GitHub Stats 📊
 
