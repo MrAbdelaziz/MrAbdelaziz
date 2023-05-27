@@ -15,11 +15,6 @@ I am an IT engineer with a passion for building software solutions that help bus
 - 💾 Big DATA
 - 🚀 DevOps
 
-## My GitHub Stats 📊
-
-![Abdelaziz GitHub Stats](https://github-readme-stats.vercel.app/api?username=MrAbdelaziz&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrAbdelaziz&layout=compact&theme=radical)
-
 # latest picture from NASA:
 <p align="center">
 
