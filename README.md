@@ -15,7 +15,6 @@ I am an IT engineer with a passion for building software solutions that help bus
 - 💾 Big DATA
 - 🚀 DevOps
 
-# latest picture from NASA:
 <p align="center">
 
 <img src="image.jpg" width="300" align="center"/>
