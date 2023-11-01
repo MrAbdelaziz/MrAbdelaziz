@@ -30,7 +30,7 @@ Python, Java, .Net, and web frameworks.
 ```
 
 
-<img align="right" src="image.jpg" width="300" height="150"/>
+<img align="right" src="image.jpg" width="300" height="135"/>
 
 
 ```diff
