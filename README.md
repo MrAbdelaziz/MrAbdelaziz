@@ -1,21 +1,44 @@
-# Hi, I'm Abdelaziz 👋
-
+```diff
+@@---------------------------------@@
+- Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
+@@---------------------------------@@
+```
 <img align="right" src="https://avatars.githubusercontent.com/u/60048840?v=4" width="300"/>
 
-## About Me 👨‍💻
 
-I am an IT engineer with a passion for building software solutions that help businesses grow. With over 7 years of experience in the field, I have worked with a variety of programming languages and web frameworks, including Python, Java, and .Net.
+```diff
++ About Me 👨‍💻📈
 
-## My Skills 🚀
+@@---------------------------------@@
 
-- 💻 Programming
-- 🌐 Web
-- ☁️ Cloud
-- 🤖 Machine Learning
-- 💾 Big DATA
-- 🚀 DevOps
+Experienced IT engineer with a passion for software solutions
+that drive business growth. Over 7 years of expertise in
+Python, Java, .Net, and web frameworks.
 
-<p align="center">
+@@---------------------------------@@
 
-<img src="image.jpg" width="300" align="center"/>
-</p>
++ My Skills 🚀
+
+💻 | Programming
+🌐 | Web Development
+☁️ | Cloud Computing
+🤖 | Machine Learning
+💾 | Big Data
+🚀 | DevOps
+📈 | Trading Enthusiast
+
+```
+
+
+<img align="right" src="image.jpg" width="300"/>
+
+
+```diff
+@@---------------------------------@@
+[:::::::::::::::::::::::::::::::::::]
+[:::::[   CODED BY              ]:::] 
+[:::::[          MrAbdelaziz   ]:::]
+[:::::::::::::::::::::::::::::::::::]
+@@---------------------------------@@
+
+```
