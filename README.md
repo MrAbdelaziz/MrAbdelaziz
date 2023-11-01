@@ -3,7 +3,7 @@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
 @@---------------------------------@@
 ```
-<img align="right" src="https://avatars.githubusercontent.com/u/60048840?v=4" width="300" />
+<img align="right" src="mychar.gif" width="200"  height="400"/>
 
 
 ```diff
