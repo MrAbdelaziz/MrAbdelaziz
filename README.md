@@ -3,8 +3,8 @@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
 @@---------------------------------@@
 ```
-<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="260"  height="360"/>
 
+<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="260"  height="360"/>
 
 ```diff
 + About Me 👨‍💻📈
@@ -27,6 +27,8 @@ Python, Java, .Net, and web frameworks.
 🚀 | DevOps
 📈 | Trading Enthusiast
 
+
+
 ```
 
 
@@ -42,3 +44,5 @@ Python, Java, .Net, and web frameworks.
 @@---------------------------------@@
 
 ```
+<img src="https://komarev.com/ghpvc/?username=MrAbdelaziz&color=0E9C47&style=for-the-badge">
+
