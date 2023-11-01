@@ -3,7 +3,7 @@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
 @@---------------------------------@@
 ```
-<img align="right" src="mychar.gif" width="200"  height="380"/>
+<img align="right" src="mychar.gif" width="200"  height="370"/>
 
 
 ```diff
