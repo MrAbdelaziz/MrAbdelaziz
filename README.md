@@ -3,7 +3,7 @@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
 @@---------------------------------@@
 ```
-<img align="right" src="[mychar.gif](https://avatars.githubusercontent.com/u/60048840?v=4" width="200"  height="360"/>
+<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="200"  height="360"/>
 
 
 ```diff
