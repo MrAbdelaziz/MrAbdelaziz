@@ -3,7 +3,7 @@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
 @@---------------------------------@@
 ```
-<img align="right" src="https://avatars.githubusercontent.com/u/60048840?v=4" width="300"/>
+<img align="right" src="https://avatars.githubusercontent.com/u/60048840?v=4" width="300" />
 
 
 ```diff
@@ -30,7 +30,7 @@ Python, Java, .Net, and web frameworks.
 ```
 
 
-<img align="right" src="image.jpg" width="300"/>
+<img align="right" src="image.jpg" width="300" height="150"/>
 
 
 ```diff
