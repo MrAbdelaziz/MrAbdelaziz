@@ -4,7 +4,7 @@
 @@---------------------------------@@
 ```
 
-<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="300"  height="350"/>
+<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="300"  height="390"/>
 
 ```diff
 + About Me 👨‍💻📈
