@@ -4,7 +4,7 @@
 @@---------------------------------@@
 ```
 
-<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="260"  height="360"/>
+<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="400"  height="600"/>
 
 ```diff
 + About Me 👨‍💻📈
@@ -32,7 +32,7 @@ Python, Java, .Net, and web frameworks.
 ```
 
 
-<img align="right" src="image.jpg" width="300" height="135"/>
+<img align="right" src="image.jpg" width="250" height="135"/>
 
 
 ```diff
