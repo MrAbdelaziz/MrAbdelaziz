@@ -3,7 +3,7 @@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
 @@---------------------------------@@
 ```
-<img align="right" src="https://pbs.twimg.com/media/GEQZHcmWwAAxzIP?format=jpg" width="300"  height="350"/>
+<img align="right" src="https://pbs.twimg.com/media/GIWIlpNbAAAqvus?format=jpg" width="300"  height="350"/>
 
 ```diff
 + About Me 👨‍💻📈
