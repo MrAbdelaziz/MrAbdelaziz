@@ -3,8 +3,7 @@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
 @@---------------------------------@@
 ```
-
-<img align="right" src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00014112/heroPoster/The-Matrix-Reloaded-plus-Revolutions-double-feature.png" width="300"  height="390"/>
+<img align="right" src="https://pbs.twimg.com/media/GEQZHcmWwAAxzIP?format=jpg" width="300"  height="350"/>
 
 ```diff
 + About Me 👨‍💻📈
