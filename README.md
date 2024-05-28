@@ -1,4 +1,8 @@
-<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Palestine_-_short_triangle.svg" width="70"  height="50"/>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Palestine_-_short_triangle.svg" width="70" height="50"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg" width="70" height="50"/>
+  
+</p>
 
 ```diff
 @@---------------------------------@@
