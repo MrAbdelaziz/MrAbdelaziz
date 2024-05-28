@@ -1,8 +1,13 @@
-<p align="center">
+<p align="left">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_representing_Moroccan-Palestinian_friendship.png" width="70" height="50"/>
-  
 </p>
 
+  *Freedom and justice for Palestine.*
+  
+  **Freedom for Palestine | الحرية لفلسطين**
+
+  
+  
 ```diff
 @@---------------------------------@@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
