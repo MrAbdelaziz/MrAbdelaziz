@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Freedom and justice for Palestine. | الحرية لفلسطين</b>
+  <b>Freedom and justice for Palestine | الحرية لفلسطين</b>
 </p>
 
 
