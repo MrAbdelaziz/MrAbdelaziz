@@ -1,4 +1,4 @@
-![Palestine](https://upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Palestine_-_short_triangle.svg "Palestine")
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Palestine_-_short_triangle.svg" width="70"  height="50"/>
 
 ```diff
 @@---------------------------------@@
