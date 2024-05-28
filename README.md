@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_representing_Moroccan-Palestinian_friendship.png" width="70" height="50"/>
+</p>
+
+<p align="center">
+  <b>Freedom and justice for Palestine. | الحرية لفلسطين</b>
+</p>
+
+
 ```diff
 @@---------------------------------@@
 - Coder@LOCAL:~$ Hello, I'm Abdelaziz! 👋
@@ -43,13 +52,9 @@ Python, Java, .Net, and web frameworks.
 @@---------------------------------@@
 
 ```
-<p align="right">
+<p align="left">
   <img src="https://komarev.com/ghpvc/?username=MrAbdelaziz&color=0E9C47&style=for-the-badge">
 </p>
 
-<p align="left">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_representing_Moroccan-Palestinian_friendship.png" width="70" height="50"/>
-</p>
 
-**Freedom and justice for Palestine. | الحرية لفلسطين**
 
