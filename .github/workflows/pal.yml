@@ -1,11 +1,9 @@
 name: Draw Pal
 on:
-  workflow_dispatch: # Manual trigger
-  schedule:
-    - cron: "0 0 * * *"
+  workflow_dispatch: # Manual trigger only - test first!
 
 jobs:
-  draw-pal:
+  draw-palestine:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -16,53 +14,155 @@ jobs:
           git config --global user.email "elouahab.abdelaziz@gmail.com"
           git config --global user.name "MrAbdelaziz"
           
-      - name: Create pattern
+      - name: Create Pal text pattern
         run: |
-          # Calculate dates for middle of graph (approximately)
-          # Adjust START_DATE to position in middle of your graph
-          START_DATE="2020-03-01"  # Modify this date as needed
+          #!/bin/bash
           
-          # Define letter patterns (7x5 grid per letter)
-          # P A L E S T I N E (simplified 5-row patterns)
-          declare -a PATTERN=(
-            # P
-            "0,0 0,1 0,2 0,3 0,4 1,0 1,2 2,0 2,2 3,0 3,1 3,2"
-            # A  
-            "5,1 5,2 5,3 6,0 6,2 6,4 7,0 7,1 7,2 7,3 7,4 8,2 9,0 9,4"
-            # L
-            "11,0 11,1 11,2 11,3 11,4 12,4 13,4 14,4"
-            # E
-            "16,0 16,1 16,2 16,3 16,4 17,0 17,2 17,4 18,0 18,1 18,2 18,4 19,0 19,4"
-            # S
-            "21,0 21,1 21,2 21,4 22,0 22,2 22,4 23,0 23,1 23,2 23,3 23,4"
-            # T
-            "25,0 26,0 26,1 26,2 26,3 26,4 27,0"
-            # I
-            "29,0 29,4 30,1 30,2 30,3 31,0 31,4"
-            # N
-            "33,0 33,1 33,2 33,3 33,4 34,0 34,2 34,4 35,0 35,3 35,4 36,0 36,4"
-            # E
-            "38,0 38,1 38,2 38,3 38,4 39,0 39,2 39,4 40,0 40,1 40,2 40,4 41,0 41,4"
+          # Calculate the Sunday of the current week (graph starts from Sunday)
+          current_sunday=$(date -d "last sunday" +%Y-%m-%d)
+          
+          # Go back 52 weeks to get the start of the contribution graph
+          graph_start=$(date -d "$current_sunday - 52 weeks" +%Y-%m-%d)
+          echo "Graph starts: $graph_start"
+          
+          # Function to get date for specific week and day
+          get_date() {
+            local week=$1    # Week number (0-52)
+            local day=$2     # Day of week (0=Sunday, 1=Monday, ..., 6=Saturday)
+            date -d "$graph_start + $((week * 7 + day)) days" +%Y-%m-%d
+          }
+          
+          # Define PAL pattern (each letter is 5 rows × varying width)
+          # Starting at week 15 to center in the graph (weeks 15-45)
+          
+          # P (weeks 15-18)
+          declare -a P_PATTERN=(
+            "15,1 15,2 15,3 15,4 15,5"  # Column
+            "16,1 16,3"                  # Top and middle
+            "17,1 17,2 17,3"            # Top bar
+            "18,1"                       # Bottom part
           )
           
-          # Create commits for each pattern point
-          for pattern in "${PATTERN[@]}"; do
+          # A (weeks 20-23) 
+          declare -a A_PATTERN=(
+            "20,2 20,3"                  # Top
+            "21,1 21,4"                  # Sides
+            "22,1 22,2 22,3 22,4"       # Middle bar
+            "23,1 23,5"                  # Bottom sides
+          )
+          
+          # L (weeks 25-27)
+          declare -a L_PATTERN=(
+            "25,1 25,2 25,3 25,4 25,5"  # Left column
+            "26,5"                       # Bottom
+            "27,5"                       # Bottom
+          )
+          
+          # E (weeks 29-31)
+          declare -a E_PATTERN=(
+            "29,1 29,2 29,3 29,4 29,5"  # Left column
+            "30,1 30,3 30,5"            # Horizontal bars
+            "31,1 31,5"                 # Top and bottom
+          )
+          
+          # S (weeks 33-35)
+          declare -a S_PATTERN=(
+            "33,1 33,2 33,3 33,5"       # S shape
+            "34,1 34,3 34,5"            
+            "35,2 35,3 35,4 35,5"       
+          )
+          
+          # T (weeks 37-39)
+          declare -a T_PATTERN=(
+            "37,1"                       # Top bar
+            "38,1 38,2 38,3 38,4 38,5"  # Vertical line
+            "39,1"                       # Top bar
+          )
+          
+          # I (weeks 41-43)
+          declare -a I_PATTERN=(
+            "41,1 41,5"                  # Top and bottom
+            "42,2 42,3 42,4"            # Middle
+            "43,1 43,5"                  # Top and bottom
+          )
+          
+          # N (weeks 45-47)
+          declare -a N_PATTERN=(
+            "45,1 45,2 45,3 45,4 45,5"  # Left column
+            "46,2 46,4"                  # Diagonal
+            "47,1 47,2 47,3 47,4 47,5"  # Right column
+          )
+          
+          # E (weeks 49-51)
+          declare -a E2_PATTERN=(
+            "49,1 49,2 49,3 49,4 49,5"  # Left column
+            "50,1 50,3 50,5"            # Horizontal bars
+            "51,1 51,5"                 # Top and bottom
+          )
+          
+          # Function to create commits for pattern
+          create_commits_for_pattern() {
+            local pattern="$1"
+            local commits_per_dot="${2:-3}"  # Default 3 commits per dot
+            
             for point in $pattern; do
-              day_offset=$(echo $point | cut -d',' -f1)
-              row_offset=$(echo $point | cut -d',' -f2)
+              week=$(echo $point | cut -d',' -f1)
+              day=$(echo $point | cut -d',' -f2)
               
-              # Calculate date (day_offset days from start, row_offset affects intensity)
-              commit_date=$(date -d "$START_DATE + $day_offset days" +%Y-%m-%d)
+              commit_date=$(get_date $week $day)
+              echo "Creating commits for $commit_date (week $week, day $day)"
               
               # Create multiple commits for darker squares
-              for i in $(seq 1 $((row_offset + 1))); do
-                echo "Pal - commit $i on $commit_date" >> pal.txt
+              for i in $(seq 1 $commits_per_dot); do
+                echo "Pal - $commit_date commit $i" >> pal.txt
                 git add pal.txt
-                GIT_AUTHOR_DATE="$commit_date 12:00:00" GIT_COMMITTER_DATE="$commit_date 12:00:00" \
-                git commit -m "Pal - $commit_date-$i" --date="$commit_date 12:00:00"
+                
+                # Set both author and commit dates
+                GIT_AUTHOR_DATE="$commit_date 12:0$i:00" \
+                GIT_COMMITTER_DATE="$commit_date 12:0$i:00" \
+                git commit -m "🇵🇸 Pal - $commit_date #$i" \
+                           --date="$commit_date 12:0$i:00"
               done
             done
-          done
+          }
+          
+          # Create the text file first
+          echo "Free Pal 🇵🇸" > pal_message.txt
+          git add pal.txt
+          git commit -m "Initial commit: Free Pal 🇵🇸"
+          
+          # Create commits for each letter
+          echo "Creating P..."
+          create_commits_for_pattern "${P_PATTERN[*]}" 4
+          
+          echo "Creating A..."
+          create_commits_for_pattern "${A_PATTERN[*]}" 4
+          
+          echo "Creating L..."
+          create_commits_for_pattern "${L_PATTERN[*]}" 4
+          
+          echo "Creating E..."
+          create_commits_for_pattern "${E_PATTERN[*]}" 4
+          
+          echo "Creating S..."
+          create_commits_for_pattern "${S_PATTERN[*]}" 4
+          
+          echo "Creating T..."
+          create_commits_for_pattern "${T_PATTERN[*]}" 4
+          
+          echo "Creating I..."
+          create_commits_for_pattern "${I_PATTERN[*]}" 4
+          
+          echo "Creating N..."
+          create_commits_for_pattern "${N_PATTERN[*]}" 4
+          
+          echo "Creating E..."
+          create_commits_for_pattern "${E2_PATTERN[*]}" 4
+          
+          echo "Pal pattern created! Total commits: $(git rev-list --count HEAD)"
           
       - name: Push changes
-        run: git push origin master
+        run: |
+          git push origin main --force
+          echo "🇵🇸 PALESTINE will appear in your contribution graph!"
+          echo "Note: GitHub may take a few minutes to update the graph."
