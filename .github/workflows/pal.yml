@@ -65,4 +65,4 @@ jobs:
           done
           
       - name: Push changes
-        run: git push origin main
+        run: git push origin master
