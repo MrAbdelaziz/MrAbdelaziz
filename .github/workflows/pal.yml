@@ -1,0 +1,68 @@
+name: Draw Pal
+on:
+  workflow_dispatch: # Manual trigger
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  draw-pal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Git identity
+        run: |
+          git config --global user.email "elouahab.abdelaziz@gmail.com"
+          git config --global user.name "MrAbdelaziz"
+          
+      - name: Create pattern
+        run: |
+          # Calculate dates for middle of graph (approximately)
+          # Adjust START_DATE to position in middle of your graph
+          START_DATE="2020-03-01"  # Modify this date as needed
+          
+          # Define letter patterns (7x5 grid per letter)
+          # P A L E S T I N E (simplified 5-row patterns)
+          declare -a PATTERN=(
+            # P
+            "0,0 0,1 0,2 0,3 0,4 1,0 1,2 2,0 2,2 3,0 3,1 3,2"
+            # A  
+            "5,1 5,2 5,3 6,0 6,2 6,4 7,0 7,1 7,2 7,3 7,4 8,2 9,0 9,4"
+            # L
+            "11,0 11,1 11,2 11,3 11,4 12,4 13,4 14,4"
+            # E
+            "16,0 16,1 16,2 16,3 16,4 17,0 17,2 17,4 18,0 18,1 18,2 18,4 19,0 19,4"
+            # S
+            "21,0 21,1 21,2 21,4 22,0 22,2 22,4 23,0 23,1 23,2 23,3 23,4"
+            # T
+            "25,0 26,0 26,1 26,2 26,3 26,4 27,0"
+            # I
+            "29,0 29,4 30,1 30,2 30,3 31,0 31,4"
+            # N
+            "33,0 33,1 33,2 33,3 33,4 34,0 34,2 34,4 35,0 35,3 35,4 36,0 36,4"
+            # E
+            "38,0 38,1 38,2 38,3 38,4 39,0 39,2 39,4 40,0 40,1 40,2 40,4 41,0 41,4"
+          )
+          
+          # Create commits for each pattern point
+          for pattern in "${PATTERN[@]}"; do
+            for point in $pattern; do
+              day_offset=$(echo $point | cut -d',' -f1)
+              row_offset=$(echo $point | cut -d',' -f2)
+              
+              # Calculate date (day_offset days from start, row_offset affects intensity)
+              commit_date=$(date -d "$START_DATE + $day_offset days" +%Y-%m-%d)
+              
+              # Create multiple commits for darker squares
+              for i in $(seq 1 $((row_offset + 1))); do
+                echo "Pal - commit $i on $commit_date" >> pal.txt
+                git add pal.txt
+                GIT_AUTHOR_DATE="$commit_date 12:00:00" GIT_COMMITTER_DATE="$commit_date 12:00:00" \
+                git commit -m "Pal - $commit_date-$i" --date="$commit_date 12:00:00"
+              done
+            done
+          done
+          
+      - name: Push changes
+        run: git push origin main
