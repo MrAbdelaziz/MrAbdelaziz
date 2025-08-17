@@ -163,6 +163,6 @@ jobs:
           
       - name: Push changes
         run: |
-          git push origin main --force
-          echo "🇵🇸 PALESTINE will appear in your contribution graph!"
+          git push origin master --force
+          echo "PAL will appear in your contribution graph!"
           echo "Note: GitHub may take a few minutes to update the graph."
