@@ -16,7 +16,7 @@ Python, Java, .Net, and web frameworks.
 
 @@---------------------------------@@
 
-+ My Skills 🚀
++ Stack 🚀
 
 💻 | Programming
 🌐 | Web Development
