@@ -10,9 +10,9 @@
 
 @@---------------------------------@@
 
-Experienced IT & Software Engineer with a passion for software solutions
+Experienced Software Engineer with a passion for software solutions
 that drive business growth. Over 7 years of expertise in
-Python, Java, .Net, and web frameworks.
+Python, Java, .NET, and web frameworks.
 
 @@---------------------------------@@
 
